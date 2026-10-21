@@ -1,0 +1,32 @@
+name: Actualizar Convocatorias Automáticamente
+
+on:
+  schedule:
+    - cron: '0 7 * * *' # Se ejecuta automáticamente todos los días a las 7:00 AM
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub cuando quieras
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Instalar librerías
+        run: pip install beautifulsoup4
+
+      - name: Ejecutar bot de actualización
+        run: python actualizar.py
+
+      - name: Guardar y publicar cambios en GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add convocatorias.json
+          git diff-index --quiet HEAD || git commit -m "Auto-actualización de convocatorias"
+          git push
