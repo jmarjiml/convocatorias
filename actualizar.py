@@ -2,7 +2,7 @@ import urllib.request
 import urllib.parse
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 
 URL = "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/"
@@ -11,55 +11,77 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 def obtener_soup(url):
     try:
         req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=12) as response:
             html = response.read().decode('utf-8', errors='ignore')
             return BeautifulSoup(html, 'html.parser'), html
     except Exception as e:
-        print(f"Aviso: No se pudo analizar {url}: {e}")
+        print(f"Error accediendo a {url}: {e}")
         return None, ""
 
-def determinar_estado_real(soup_pagina, html_pagina, titulo_link):
-    if not soup_pagina:
-        return "Matrícula abierta", "abierta", "⚡ Convocatoria publicada con plazo de inscripción activo."
+def calcular_dias_habiles(fecha_inicio, dias_habiles):
+    # Calcula la fecha límite sumando días hábiles (excluyendo sábados y domingos)
+    cur = fecha_inicio
+    added = 0
+    while added < dias_habiles:
+        cur += timedelta(days=1)
+        if cur.weekday() < 5:  # Lunes a Viernes
+            added += 1
+    return cur
 
-    # 1. Aislar el contenido principal para ignorar menús y pies de página
-    main_content = soup_pagina.find('main') or soup_pagina.find('article') or soup_pagina.find('body')
-    texto_main = main_content.get_text(" ", strip=True).lower() if main_content else html_pagina.lower()
+def determinar_estado_automatico(soup, html_pagina, titulo_link):
+    if not soup:
+        return "Matrícula abierta", "abierta", "⚡ Convocatoria publicada."
 
-    # Extraer el texto de los enlaces adjuntos (resoluciones o PDFs publicados)
-    enlaces_main = [a.get_text(strip=True).lower() for a in (main_content.find_all('a') if main_content else [])]
-    texto_enlaces = " ".join(enlaces_main)
+    main = soup.find('main') or soup.find('article') or soup.find('body')
+    if not main:
+        return "Matrícula abierta", "abierta", "⚡ Convocatoria publicada."
 
-    # 2. Comprobar si hay una RESOLUCIÓN DEFINITIVA efectivamente publicada
-    # (Buscamos enlaces específicos de resolución o menciones explícitas de listado definitivo adjunto)
-    tiene_resolucion_definitiva = any(k in texto_enlaces for k in ['listado definitivo', 'resolución definitiva', 'resolucion definitiva', 'admitidos definitivos']) or \
-                                   ('resolución' in texto_main and 'definitiv' in texto_main and ('publicación' in texto_main or 'admitidos' in texto_main))
+    # 1. ANALIZAR EL TITULAR SUPERIOR DE LA PUBLICACIÓN (h1, h2, h3 y primeros párrafos)
+    # Si la Consejería publicó un listado, el título superior o la resolución lo indican explícitamente
+    primeros_encabezados = main.find_all(['h1', 'h2', 'h3', 'a'], limit=5)
+    texto_titulos = " ".join([h.get_text(" ", strip=True).lower() for h in primeros_encabezados])
+    
+    primeros_p = main.find_all('p', limit=4)
+    texto_resolucion = " ".join([p.get_text(" ", strip=True).lower() for p in primeros_p])
 
-    # 3. Comprobar si hay una RESOLUCIÓN PROVISIONAL efectivamente publicada
-    tiene_resolucion_provisional = any(k in texto_enlaces for k in ['listado provisional', 'resolución provisional', 'resolucion provisional', 'admitidos provisionales']) or \
-                                    ('resolución' in texto_main and 'provisional' in texto_main and ('reclamación' in texto_main or 'alegaciones' in texto_main))
+    cabecera_completa = texto_titulos + " " + texto_resolucion
 
-    # 4. Comprobar si la convocatoria tiene la inscripción/solicitud activa
-    tiene_solicitud_activa = any(k in texto_main for k in [
-        'solicitud de participación', 'acceder al aplicativo', 'formulario de inscripción',
-        'plazo de presentación', 'cumplimentar la solicitud', 'abierto el plazo'
-    ]) or any('solicitud' in e or 'inscripción' in e or 'aplicativo' in e for e in enlaces_main)
+    # A) ¿El titular superior indica Listado Definitivo?
+    if 'listado definitivo' in cabecera_completa or 'resolución definitiva' in cabecera_completa or 'resolucion definitiva' in cabecera_completa:
+        return "Listado definitivo", "definitiva", "Listado definitivo publicado mediante resolución oficial."
 
-    # REGLAS DE DECISIÓN DE ESTADO
+    # B) ¿El titular superior indica Listado Provisional?
+    if 'listado provisional' in cabecera_completa or 'resolución provisional' in cabecera_completa or 'resolucion provisional' in cabecera_completa:
+        return "Lista provisional", "provisional", "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
 
-    # A) Si ya existe un Listado Definitivo publicado y no hay nueva solicitud abierta
-    if tiene_resolucion_definitiva and not tiene_solicitud_activa:
-        return "Listado definitivo", "definitiva", "Listado definitivo publicado oficialmente en la sede."
+    # 2. CÁLCULO MATEMÁTICO DE FECHAS (Extraer Fecha de publicación y Días hábiles)
+    texto_pagina = main.get_text(" ", strip=True)
+    
+    match_fecha = re.search(r'Fecha de publicación:\s*(\d{2}/\d{2}/\d{4})', texto_pagina, re.IGNORECASE)
+    match_dias = re.search(r'(\d+)\s*días hábiles', texto_pagina, re.IGNORECASE)
 
-    # B) Si ya existe un Listado Provisional publicado (y no el definitivo ni solicitud abierta)
-    if tiene_resolucion_provisional and not tiene_resolucion_definitiva and not tiene_solicitud_activa:
-        return "Lista provisional", "provisional", "Listado provisional publicado (periodo de alegaciones/reclamaciones abierto)."
+    hoy = datetime.now()
 
-    # C) Si el plazo o la solicitud están activos, o es una convocatoria nueva sin resoluciones aún
-    if tiene_solicitud_activa or (not tiene_resolucion_provisional and not tiene_resolucion_definitiva):
-        return "Matrícula abierta", "abierta", "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+    if match_fecha:
+        try:
+            fecha_pub = datetime.strptime(match_fecha.group(1), "%d/%m/%Y")
+            dias_hab = int(match_dias.group(1)) if match_dias else 10
+            fecha_limite = calcular_dias_habiles(fecha_pub, dias_hab)
 
-    return "Plazo cerrado / Consulta", "otros", "Consulta las bases e instrucciones oficiales de la convocatoria."
+            # Si la fecha actual no ha superado el plazo computable de días hábiles
+            if hoy.date() <= fecha_limite.date():
+                return "Matrícula abierta", "abierta", f"⚡ Plazo de inscripción abierto hasta el {fecha_limite.strftime('%d/%m/%Y')}."
+            else:
+                return "Plazo cerrado", "otros", f"Plazo finalizado el {fecha_limite.strftime('%d/%m/%Y')} (en baremación)."
+        except Exception as e:
+            print(f"Error parseando fechas: {e}")
+
+    # 3. VERIFICAR BOTÓN ACTIVO "Acceder a la SOLICITUD"
+    tiene_boton_solicitud = any('solicitud' in a.get_text().lower() or 'aplicativo' in a.get_text().lower() for a in main.find_all('a'))
+    if tiene_boton_solicitud:
+        return "Matrícula abierta", "abierta", "⚡ Plazo de inscripción y entrega de solicitudes abierto."
+
+    return "Instrucciones / Consulta", "otros", "Consulta las bases e instrucciones oficiales."
 
 def clasificar_area(texto):
     lower = texto.lower()
@@ -70,10 +92,10 @@ def clasificar_area(texto):
     return 'General'
 
 def main():
-    print("Iniciando análisis preciso de convocatorias...")
+    print("Iniciando extracción automática por estructura de publicación...")
     soup_principal, html_principal = obtener_soup(URL)
     if not soup_principal:
-        print("Error: No se pudo cargar la página principal.")
+        print("Error al conectar con la Consejería.")
         return
 
     links = soup_principal.find_all('a', href=True)
@@ -93,11 +115,11 @@ def main():
 
         if any(k in lower_text for k in ['2026', 'proyecto', 'programa', 'convocatoria', 'curso']) and full_url not in vistos:
             vistos.add(full_url)
-            print(f"[{posicion}] Analizando: {texto[:50]}...")
-            
+            print(f"[{posicion}] Procesando: {texto[:50]}...")
+
             soup_sub, html_sub = obtener_soup(full_url)
-            estado, estado_clave, detalle = determinar_estado_real(soup_sub, html_sub, texto)
-            tipo = clasificar_area(texto + " " + html_sub)
+            estado, estado_clave, detalle = determinar_estado_automatico(soup_sub, html_sub, texto)
+            tipo = clasificar_area(texto + " " + (html_sub or ""))
 
             convocatorias.append({
                 "orden": posicion,
@@ -121,7 +143,7 @@ def main():
     with open('convocatorias.json', 'w', encoding='utf-8') as f:
         json.dump(resultado, f, ensure_ascii=False, indent=2)
 
-    print(f"Proceso completado con éxito. Se procesaron {len(convocatorias)} convocatorias.")
+    print(f"Proceso completado: {len(convocatorias)} convocatorias analizadas automáticamente.")
 
 if __name__ == "__main__":
     main()
