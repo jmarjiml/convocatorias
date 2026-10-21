@@ -1,0 +1,1025 @@
+{
+  "updated": "21/10/2026",
+  "data": [
+    {
+      "titulo": "Programas, proyectos, redes y áreas",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Convocatorias e instrucciones",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Otros estados",
+      "estadoClave": "otros",
+      "detalle": "Instrucciones de la convocatoria."
+    },
+    {
+      "titulo": "Proyecto Doble Hélice 3.0 Podcaster, curso escolar 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_doble_helice/",
+      "curso": "2026-2027",
+      "tipo": "Comunicación lingüística",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Ciencia con PETeR: investigando el Sistema Solar y los exoplanetas con telescopios robóticos, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/ciencia_peter/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto iDESCUBRE: el camino de la Investigación a la Innovación, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_idescubre/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto STEAM: Georrutas, usando el entorno como recurso educativo, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-steam_georrutas/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa Descubre la salud en tu plato, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-descubre-la-salud-en-tu-plato/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Espacios Solidarios, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-espacios-solidarios/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Canarias al natural, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/canarias-natural/",
+      "curso": "2026-2027",
+      "tipo": "Educación Ambiental",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Piloto Murgavalores: la diversidad nos hace únicos, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/murgavalores/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: STEAM Future, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/steam_future/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "XV Muestra-certamen de Cine Educativo Sin Re-cortes en Corto, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/sin-re-cortes-en-corto/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Puentes de experiencia, caminos de aprendizaje, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-puentes-de-aprendizaje/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto ciclo de conciertos escolares: Las aventuras del joven Orfeo, curso escolar 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/aventuras-joven-orfeo/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto educativo: Un patrimonio de emociones, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/patrimonio_emociones/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto sobre Reanimación Cardiopulmonar: Con tus manos puedes salvar vidas, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-reanimacion-cardiopulmonar/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Idafe: Canarias y el cambio climático, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-idafe/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de Educación Ambiental Brotes, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-de-educacion-ambiental-brotes/",
+      "curso": "2026-2027",
+      "tipo": "Educación Ambiental",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa de intervención sobre tabaquismo en Enseñanza Secundaria (ITESplus), curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa-itesplus/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Conectando Igualdades, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/conectando-igualdades/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Bibliotecas escolares del siglo XXI: los medios de comunicación en el espacio de la biblioteca escolar, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/bibliotecas-escolares-siglo-xxi/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Cultura Oceánica a través de la RedPROMAR, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-cultura_oceanica_redpromar/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto piloto: Un Timple en mi Cole, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-timple-en-mi-cole/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Plan de Frutas y Hortalizas, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/plan-frutas-y-verduras/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Edubótica Marina: mar, ciencia y robótica, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-edurov/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa Cepillín, Cepillán, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa_cepillin_cepillan/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto La lucha del garrote adaptada: camino de vida, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-lucha-garrote-adaptada/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Revista Hipótesis, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-revista-hipotesis/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Tenencia responsable de mascotas, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-tenencia-responsable-mascotas/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto experimental «SUMA», curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-suma/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto CanSat Canarias, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/competicion-reginional-cansat-canarias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto experimental Dentro de Juego II: Más Deporte, Más Igualdad, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/dentro-de-juego-ii/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto STEAM: ESTALMAT Canarias, cursos 2026-2027 y 2027-2028",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-stalmat-canarias/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Huertos Escolares Ecológicos, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/convocatoria-huertos_escolares_ecologicos/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Libres: Claves para una Educación Afectivo-Sexual Integral,curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/libres/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Premio Cosmos, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_premio_cosmo/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto experimental «Aprendiendo sobre ti: intervencion eseducativas asistidas con caballos», curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-aprendiendo-sobre-ti/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: una ventana al Universo: Astronomía en las aulas canarias, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/una-ventana-universo/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto experimental: Un océano de posibilidades: surf inclusivo, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-un-oceano-de-posibilidades/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Huellas en verde, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-huellas-en-verde/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Con Voz Propia. Islas que suenan, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/con_voz_propia/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa EsTEla, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa-estela/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Viera: aprender leyendo, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-viera/",
+      "curso": "2026-2027",
+      "tipo": "Comunicación lingüística",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto El zurrón de las letras, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/el-zurron-de-las-letras/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Matemáticas Newton Canarias, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-matematicas-newton-canarias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa del Diploma del Bachillerato Internacional, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa_diploma_bachillerato/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "V Concurso Escolar Mi Canarismo Favorito, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/concurso-mi-canarismo-favorito/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Concurso buenas prácticas Edu-REF, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/concurso_buenas_practicas_edu_ref/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Instrucciones del Programa AICLE y centros autorizados, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/instrucciones-aicle/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Otros estados",
+      "estadoClave": "otros",
+      "detalle": "Instrucciones de la convocatoria."
+    },
+    {
+      "titulo": "Instrucciones para el desarrollo de la RED CANARIA-InnovAS, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/convocatoria-redes-educativas/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Otros estados",
+      "estadoClave": "otros",
+      "detalle": "Instrucciones de la convocatoria."
+    },
+    {
+      "titulo": "Proyecto STEAM: Apañada de Ciencias. Experimenta y Diviértete, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/apanada_ciencias/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto CLILympics: Cultures in Play, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/clympics/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto experimental Un océano de posibilidades: surf inclusivo II, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-un-oceano-de-posibilidades-ii/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Dentro de Juego: Más Deporte, Más Igualdad, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/dentro_juego_mas_deporte/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "VII Encuentro Regional de Radios Escolares de Canarias De Palique, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/encuentro-radios-escolares-de-palique/",
+      "curso": "2026-2027",
+      "tipo": "Comunicación lingüística",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Fanzinarte: I proyecto de fanzine escolar de Canarias, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_fanzinarte/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Entreno mis Superpoderes con SuperAbuela, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/entreno_mis_superpoderes/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "VIII Concurso Regional de Radios Escolares De Palique, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/de_palique/",
+      "curso": "2026-2027",
+      "tipo": "Comunicación lingüística",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Charlas sobre el español de Canarias y su literatura, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/charlas_espanol_literatura_canarias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Aula GR131: Senderos que conectan, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/GR131_sendero_conectan/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Comunidad de Aprendizaje: prensa escrita, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-prensa-escrita/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto GLOBE, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-investigacion-globe/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Creciendo Saludables: Programa ALIPA, curso 2025- 2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/creciendo_saludable_programa_alipa/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Comunidad de Aprendizaje: Cadena de Radios Escolares, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/cadena_radios_escolares/",
+      "curso": "2026-2027",
+      "tipo": "Comunicación lingüística",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Educar en justicia, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/educar-en-justicia/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto ELECAN: Encuentros de Lectura y Escritura Escolar de Canarias, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/elecan/",
+      "curso": "2026-2027",
+      "tipo": "Comunicación lingüística",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Alisio: centros educativos de Canarias desde el espacio, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-alisio/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto NaturArte: Piezas del archipiélago, cursos 2025-2026 y 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-naturarte/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Concurso Escolar cambia el rumbo, reduce tu basura",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/concurso-cambia-rumbo-reduce-basura/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de innovación Educarnaval, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/actividad-educativa-educarnaval/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Ciencia Show Canarias 2026, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-ciencia-show-canarias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Un parlamento para la sostenibilidad, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-parlamento-para-sostenibilidad/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Job Shadow AICLE y Bachibac, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-jobshadow-aicle/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Del Barrio a La Luna, curso escolar 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/barrio-luna/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa de Enfermería en el ámbito escolar, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/enfermeria-en-el-ambito-escolar/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto De atrás pa’lante. Cultura canaria e identidades en los centros escolares de Canarias, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_de_atras_pa_lante/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto LinguaLAB, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_lingualab/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Cazabulos Canarias, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-cazabulos/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Ajedrez educativo. Educando personitas, no campeones ni campeonas, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-ajedrez/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de innovación: Enseñar Africa. Una mirada en positivo, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-de-innovacion-ensenar-africa/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Foro Educativo Arte y Género, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-foro-educativo-arte-y-genero/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto En la Cancha de la Igualdad, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/en-la-cancha-de-la-igualdad/",
+      "curso": "2026-2027",
+      "tipo": "Igualdad / Salud",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Constelación de Escritoras Canarias, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-constelacion-de-escritoras-canarias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Aulas innovadoras de Educación Patrimonial, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-aulas-innovadoras/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Ecobosques educativos para la conservación de la naturaleza, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-ecobosques/",
+      "curso": "2026-2027",
+      "tipo": "Educación Ambiental",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Enseñar para emprender, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/ensenar-emprender/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de innovación: Ayudantes TIC, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/ayudantes-tic/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: STARS, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-stars/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Storytelling Meeting Canarias, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-storytelling-meeting-cnarias/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Canciones con Orgullo I, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-canciones-con-orgullo/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto: Crecer con voz. Un Podcast al futuro, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-crecer-con-voz/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto Cultivating Futures: pedagogical gardens for language learning, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-cultivating-futures/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto:  Silbo Gomero, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_silbo_gomero/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programa de Auxiliares de Conversación, curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa-auxiliares-conversacion/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de actividad complementaria y extraescolar Origen, curso escolar 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-complementario-origen/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de actividad complementaria y extraescolar \"¡A Escena!\", curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-complementario-a-escena/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de actividad complementaria y extraescolar Canarias a \"Pie de Foto\", curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-complementario-a-pie-de-foto/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto de actividad complementaria y extraescolar \"Inventando, Crecemos\", curso 2025-2026",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-complementario-inventando-crecemos/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Proyecto El lino de los sueños: centenario de Alonso Quesada, curso 2024-2025.",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/lino-de-los-suenos/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "VI edición de la liga de retos en el ciberespacio- National Cyber League (NCL), curso 2024-2025",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/retos_ciberespacio/",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programas Europeos de Educación",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/opeec/index.html",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    },
+    {
+      "titulo": "Programas, proyectos y áreas",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/index.html",
+      "curso": "2026-2027",
+      "tipo": "General",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Inscripción o plazo abierto según el portal oficial del Gobierno de Canarias."
+    }
+  ]
+}
