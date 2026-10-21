@@ -10,7 +10,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes abierto."
     },
     {
       "orden": 2,
@@ -19,9 +19,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 3,
@@ -32,7 +32,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 03/11/2026."
     },
     {
       "orden": 4,
@@ -41,9 +41,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 5,
@@ -54,7 +54,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 02/11/2026."
     },
     {
       "orden": 6,
@@ -63,9 +63,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Lista provisional",
+      "estadoClave": "provisional",
+      "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
     },
     {
       "orden": 7,
@@ -76,7 +76,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 02/11/2026."
     },
     {
       "orden": 8,
@@ -87,7 +87,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 9,
@@ -98,7 +98,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 10,
@@ -109,7 +109,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 11,
@@ -120,7 +120,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 12,
@@ -131,7 +131,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 13,
@@ -142,7 +142,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 14,
@@ -151,9 +151,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 15,
@@ -164,7 +164,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 16,
@@ -173,9 +173,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 17,
@@ -184,9 +184,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 18,
@@ -195,9 +195,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 19,
@@ -206,9 +206,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 20,
@@ -217,9 +217,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Lista provisional",
+      "estadoClave": "provisional",
+      "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
     },
     {
       "orden": 21,
@@ -228,9 +228,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 20/10/2026 (en baremación)."
     },
     {
       "orden": 22,
@@ -241,7 +241,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 30/10/2026."
     },
     {
       "orden": 23,
@@ -250,9 +250,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 24,
@@ -263,7 +263,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 29/10/2026."
     },
     {
       "orden": 25,
@@ -272,9 +272,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Lista provisional",
+      "estadoClave": "provisional",
+      "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
     },
     {
       "orden": 26,
@@ -283,9 +283,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Lista provisional",
+      "estadoClave": "provisional",
+      "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
     },
     {
       "orden": 27,
@@ -296,7 +296,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 23/10/2026."
     },
     {
       "orden": 28,
@@ -305,9 +305,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 09/10/2026 (en baremación)."
     },
     {
       "orden": 29,
@@ -316,9 +316,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 16/10/2026 (en baremación)."
     },
     {
       "orden": 30,
@@ -327,9 +327,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 31,
@@ -338,9 +338,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 16/10/2026 (en baremación)."
     },
     {
       "orden": 32,
@@ -349,9 +349,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 33,
@@ -360,9 +360,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 34,
@@ -371,9 +371,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 12/10/2026 (en baremación)."
     },
     {
       "orden": 35,
@@ -382,9 +382,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 36,
@@ -393,9 +393,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 05/10/2026 (en baremación)."
     },
     {
       "orden": 37,
@@ -404,9 +404,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 38,
@@ -415,9 +415,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 39,
@@ -426,9 +426,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 40,
@@ -437,9 +437,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 41,
@@ -448,9 +448,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 30/12/2025 (en baremación)."
     },
     {
       "orden": 42,
@@ -459,9 +459,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 15/06/2026 (en baremación)."
     },
     {
       "orden": 43,
@@ -470,9 +470,9 @@
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 44,
@@ -481,9 +481,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 08/06/2026 (en baremación)."
     },
     {
       "orden": 45,
@@ -492,9 +492,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 16/10/2026 (en baremación)."
     },
     {
       "orden": 46,
@@ -503,9 +503,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 10/07/2026 (en baremación)."
     },
     {
       "orden": 47,
@@ -514,9 +514,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 48,
@@ -525,9 +525,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 49,
@@ -536,9 +536,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 27/05/2026 (en baremación)."
     },
     {
       "orden": 50,
@@ -547,9 +547,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 15/06/2026 (en baremación)."
     },
     {
       "orden": 51,
@@ -558,9 +558,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 52,
@@ -569,9 +569,9 @@
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 53,
@@ -580,9 +580,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 54,
@@ -591,9 +591,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 55,
@@ -602,9 +602,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 56,
@@ -613,9 +613,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 57,
@@ -624,9 +624,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 58,
@@ -635,9 +635,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 10/03/2026 (en baremación)."
     },
     {
       "orden": 59,
@@ -646,9 +646,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 60,
@@ -657,9 +657,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 61,
@@ -668,9 +668,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 62,
@@ -679,9 +679,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 63,
@@ -690,9 +690,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 64,
@@ -701,9 +701,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 65,
@@ -712,9 +712,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 66,
@@ -723,9 +723,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 67,
@@ -734,9 +734,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 68,
@@ -745,9 +745,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 69,
@@ -756,9 +756,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 03/03/2026 (en baremación)."
     },
     {
       "orden": 70,
@@ -769,7 +769,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Listado definitivo",
       "estadoClave": "definitiva",
-      "detalle": "Listado definitivo publicado oficialmente en la sede."
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 71,
@@ -778,9 +778,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 72,
@@ -789,9 +789,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 73,
@@ -800,9 +800,9 @@
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 74,
@@ -811,9 +811,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 75,
@@ -822,9 +822,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 76,
@@ -833,9 +833,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 77,
@@ -844,9 +844,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 78,
@@ -855,9 +855,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 79,
@@ -866,9 +866,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 24/12/2025 (en baremación)."
     },
     {
       "orden": 80,
@@ -877,9 +877,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 81,
@@ -888,9 +888,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 82,
@@ -899,9 +899,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 83,
@@ -910,9 +910,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 84,
@@ -921,9 +921,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 19/12/2025 (en baremación)."
     },
     {
       "orden": 85,
@@ -932,9 +932,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 86,
@@ -943,9 +943,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Lista provisional",
+      "estadoClave": "provisional",
+      "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
     },
     {
       "orden": 87,
@@ -954,9 +954,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 88,
@@ -965,9 +965,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 89,
@@ -976,9 +976,9 @@
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 28/11/2025 (en baremación)."
     },
     {
       "orden": 90,
@@ -987,9 +987,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 25/11/2025 (en baremación)."
     },
     {
       "orden": 91,
@@ -998,9 +998,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 25/11/2025 (en baremación)."
     },
     {
       "orden": 92,
@@ -1009,9 +1009,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 93,
@@ -1020,9 +1020,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 94,
@@ -1031,9 +1031,9 @@
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 03/09/2025 (en baremación)."
     },
     {
       "orden": 95,
@@ -1042,9 +1042,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 96,
@@ -1053,9 +1053,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 97,
@@ -1064,9 +1064,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 98,
@@ -1075,9 +1075,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 99,
@@ -1086,9 +1086,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
       "orden": 100,
@@ -1099,7 +1099,7 @@
       "fuente": "Gobierno de Canarias",
       "estado": "Matrícula abierta",
       "estadoClave": "abierta",
-      "detalle": "⚡ Convocatoria publicada con plazo de inscripción activo."
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 101,
@@ -1108,9 +1108,9 @@
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
-      "estado": "Listado definitivo",
-      "estadoClave": "definitiva",
-      "detalle": "Listado definitivo publicado oficialmente en la sede."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 102,
@@ -1119,9 +1119,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 103,
@@ -1130,9 +1130,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes actualmente abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     }
   ]
 }
