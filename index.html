@@ -35,7 +35,7 @@
     <div class="hero__content">
       <p class="eyebrow">Programas, proyectos y redes educativas</p>
       <h1>Convocatorias curso 2026-2027</h1>
-      <p class="lead">Acceso rápido a las convocatorias publicadas por la Consejería de Educación del Gobierno de Canarias con estado de matrícula en tiempo real.</p>
+      <p class="lead">Acceso rápido a las convocatorias publicadas por la Consejería de Educación del Gobierno de Canarias, ordenadas por novedad.</p>
       <div class="hero__actions">
         <a class="button button--primary" href="https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/" target="_blank" rel="noopener">Ver página oficial</a>
         <a class="button button--ghost" href="#mosaico">Ir al mosaico</a>
@@ -75,7 +75,7 @@
   </main>
 
   <footer class="footer">
-    <p>Fuente: página oficial de convocatorias e instrucciones del Gobierno de Canarias. Datos actualizados: <span id="updated">Cargando fecha...</span>.</p>
+    <p>Fuente: página oficial del Gobierno de Canarias. Datos actualizados: <span id="updated">Cargando fecha...</span>.</p>
   </footer>
 
   <script>
@@ -94,11 +94,9 @@
     function escapeHtml(text){return String(text || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
     function estadoLabel(clave){return clave === 'abierta' ? 'Matrícula abierta' : clave === 'provisional' ? 'Lista provisional' : clave === 'definitiva' ? 'Listado definitivo' : 'Otros estados';}
 
+    // Ordenar de las más recientes a las más antiguas
     function sortData(data){
-      return data.sort((a,b) => {
-        const order = {abierta:0, provisional:1, definitiva:2, otros:3};
-        return (order[a.estadoClave] ?? 9) - (order[b.estadoClave] ?? 9) || a.titulo.localeCompare(b.titulo, 'es');
-      });
+      return data.sort((a,b) => (a.orden || 999) - (b.orden || 999));
     }
 
     function cardTemplate(item){
@@ -161,7 +159,6 @@
       summary.textContent = `${filtered.length} convocatoria${filtered.length === 1 ? '' : 's'} mostrada${filtered.length === 1 ? '' : 's'} de ${convocatorias.length} para el curso ${COURSE}.`;
     }
 
-    // Cargar datos del archivo JSON generado automáticamente por GitHub Actions
     async function cargarConvocatorias(){
       try {
         const res = await fetch('./convocatorias.json?v=' + Date.now());
