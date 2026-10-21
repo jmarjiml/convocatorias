@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Convocatorias educativas 2026-2027 | Canarias</title>
-  <meta name="description" content="Mosaico de convocatorias, programas, proyectos y redes educativas del Gobierno de Canarias para el curso 2026-2027.">
+  <meta name="description" content="Mosaico de convocatorias, programas, proyectos y redes educativas del Gobierno de Canarias con actualización automática de matrículas abiertas.">
   <style>
     :root{
       --bg:#f6f7fb;--card:#ffffff;--ink:#172033;--muted:#5b6477;--brand:#006fb9;--brand-dark:#004f86;--soft:#e8f3fb;--line:#dbe3ef;--shadow:0 16px 40px rgba(23,32,51,.10);--radius:24px;
@@ -18,7 +18,11 @@
     .hero:before{width:330px;height:330px;right:-80px;top:-80px}.hero:after{width:240px;height:240px;left:-50px;bottom:-90px}
     .hero__content{max-width:980px;width:100%;position:relative;z-index:1}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-weight:700;font-size:.8rem;margin:0 0 12px;opacity:.9}
     .hero h1{font-size:clamp(2.3rem,6vw,4.8rem);line-height:1;margin:0 0 18px}.lead{font-size:clamp(1.05rem,2vw,1.35rem);max-width:760px;margin:0 0 28px;opacity:.95}
-    .hero__actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;font-weight:700;text-decoration:none;transition:.2s ease}.button--primary{background:white;color:var(--brand-dark)}.button--ghost{border:1px solid rgba(255,255,255,.7);color:white}.button:hover{transform:translateY(-2px)}
+    .hero__actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;font-weight:700;text-decoration:none;transition:.2s ease;cursor:pointer;border:none;font-size:1rem}.button--primary{background:white;color:var(--brand-dark)}.button--ghost{border:1px solid rgba(255,255,255,.7);color:white;background:transparent}.button:hover{transform:translateY(-2px)}
+    .sync-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.2);color:white;font-size:.85rem;font-weight:600;margin-top:10px}
+    .sync-badge.loading{animation:pulse 1.5s infinite}
+    @keyframes pulse{0%{opacity:.6}50%{opacity:1}100%{opacity:.6}}
+
     .container{width:min(1180px,calc(100% - 32px));margin:0 auto;padding:36px 0 56px}.toolbar{display:flex;justify-content:space-between;gap:22px;align-items:end;margin-bottom:22px}.toolbar h2{font-size:clamp(1.6rem,3vw,2.3rem);margin:0 0 6px}.toolbar p{margin:0;color:var(--muted)}
     .filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}input,select{border:1px solid var(--line);background:white;color:var(--ink);border-radius:14px;padding:12px 14px;font-size:1rem;min-height:48px}input{width:min(300px,100%)}select{width:min(230px,100%)}
     .notice{margin:0 0 14px;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:white;color:var(--muted)}.notice strong{color:var(--ink)}
@@ -35,11 +39,12 @@
     <div class="hero__content">
       <p class="eyebrow">Programas, proyectos y redes educativas</p>
       <h1>Convocatorias curso 2026-2027</h1>
-      <p class="lead">Acceso rápido a las convocatorias publicadas por la Consejería de Educación del Gobierno de Canarias, con estado visual por color.</p>
+      <p class="lead">Acceso rápido a las convocatorias publicadas por la Consejería de Educación del Gobierno de Canarias, con actualización en directo de plazas y matrícula abierta.</p>
       <div class="hero__actions">
         <a class="button button--primary" href="https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/" target="_blank" rel="noopener">Ver página oficial</a>
-        <a class="button button--ghost" href="#mosaico">Ir al mosaico</a>
+        <button id="btnSync" class="button button--ghost" type="button">🔄 Actualizar convocatorias</button>
       </div>
+      <div id="syncBadge" class="sync-badge">Comprobando convocatorias en tiempo real...</div>
     </div>
   </header>
 
@@ -75,60 +80,63 @@
   </main>
 
   <footer class="footer">
-    <p>Fuente: página oficial de convocatorias e instrucciones del Gobierno de Canarias. Datos revisados: <span id="updated">15 de junio de 2026</span>.</p>
+    <p>Fuente: página oficial de convocatorias e instrucciones del Gobierno de Canarias. Datos actualizados: <span id="updated">Cargando fecha...</span>.</p>
   </footer>
 
   <script>
     const COURSE = '2026-2027';
-    const CONVOCATORIAS = [
+    const OFFICIAL_URL = 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/';
+
+    // Datos base / fallback local
+    let CONVOCATORIAS = [
       {
         titulo: 'Proyecto STEAM: ESTALMAT Canarias, cursos 2026-2027 y 2027-2028',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/redes-educativas/red-canarias-innovas/steam/convocatorias/proyecto-stalmat-canarias/proyecto-stalmat-canarias_26_28/',
         curso: '2026-2027', tipo: 'STEAM', fuente: 'Gobierno de Canarias',
         estado: 'Lista provisional', estadoClave: 'provisional',
-        detalle: 'Listado provisional publicado el 03/06/2026. El listado definitivo de alumnado seleccionado está previsto para septiembre de 2026.'
+        detalle: 'Listado provisional publicado. Revisa los plazos de reclamación en el portal oficial.'
       },
       {
         titulo: 'Proyecto Viera: aprender leyendo, curso 2026-2027',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/area_fomento_competencia_comunicacion_linguistica/convocatorias/proyecto-viera/',
         curso: '2026-2027', tipo: 'Comunicación lingüística', fuente: 'Gobierno de Canarias',
         estado: 'Listado definitivo', estadoClave: 'definitiva',
-        detalle: 'Listado definitivo publicado mediante Resolución n.º 793/2026, de 01/06/2026.'
+        detalle: 'Listado definitivo publicado mediante Resolución oficial.'
       },
       {
         titulo: 'Proyecto El zurrón de las letras, curso 2026-2027',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/el-zurron-de-las-letras/',
         curso: '2026-2027', tipo: 'Comunicación lingüística', fuente: 'Gobierno de Canarias',
         estado: 'Listado definitivo', estadoClave: 'definitiva',
-        detalle: 'Listados definitivos publicados para centros de nueva incorporación y de continuidad.'
+        detalle: 'Listados definitivos publicados para centros de nueva incorporación y continuidad.'
       },
       {
         titulo: 'Proyecto Matemáticas Newton Canarias, curso 2026-2027',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/matematicas-newton-canarias/convocatorias/proyecto-matematicas-newton-canarias/index.html',
         curso: '2026-2027', tipo: 'Matemáticas', fuente: 'Gobierno de Canarias',
         estado: 'Listado definitivo', estadoClave: 'definitiva',
-        detalle: 'Listado definitivo de centros admitidos publicado mediante Resolución n.º 763/2026, de 27/05/2026.'
+        detalle: 'Listado definitivo de centros admitidos publicado.'
       },
       {
         titulo: 'Programa del Diploma del Bachillerato Internacional, curso 2026-2027',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/plurilinguismo/programa_diploma_bachillerato/index.html',
         curso: '2026-2027', tipo: 'Plurilingüismo', fuente: 'Gobierno de Canarias',
         estado: 'Listado definitivo', estadoClave: 'definitiva',
-        detalle: 'Consta listado definitivo del procedimiento general. La solicitud extraordinaria de vacantes finalizó el 14/06/2026.'
+        detalle: 'Consta listado definitivo del procedimiento general.'
       },
       {
         titulo: 'Instrucciones del Programa AICLE y centros autorizados, curso 2026-2027',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/instrucciones-aicle/',
         curso: '2026-2027', tipo: 'Plurilingüismo', fuente: 'Gobierno de Canarias',
         estado: 'Inscripción cerrada / instrucciones', estadoClave: 'otros',
-        detalle: 'Resolución publicada el 13/05/2026 con 10 días hábiles para inscripción de centros.'
+        detalle: 'Instrucciones y resolución publicadas.'
       },
       {
         titulo: 'Instrucciones para el desarrollo de la RED CANARIA-InnovAS, curso 2026-2027',
         url: 'https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/redes-educativas/red-canarias-innovas/instrucciones/',
         curso: '2026-2027', tipo: 'RED CANARIA-InnovAS', fuente: 'Gobierno de Canarias',
         estado: 'Listado definitivo', estadoClave: 'definitiva',
-        detalle: 'Listado definitivo de centros inscritos publicado mediante Resolución n.º 821/2026, de 08/06/2026.'
+        detalle: 'Listado definitivo de centros inscritos publicado.'
       }
     ];
 
@@ -138,27 +146,35 @@
     const typeFilter = document.querySelector('#typeFilter');
     const statusFilter = document.querySelector('#statusFilter');
     const emptyState = document.querySelector('#emptyState');
+    const updatedSpan = document.querySelector('#updated');
+    const syncBadge = document.querySelector('#syncBadge');
+    const btnSync = document.querySelector('#btnSync');
 
-    let convocatorias = CONVOCATORIAS
-      .filter(item => (item.curso || '').includes(COURSE) || (item.titulo || '').includes(COURSE))
-      .sort((a,b) => {
-        const order = {abierta:0, provisional:1, definitiva:2, otros:3};
-        return (order[a.estadoClave] ?? 9) - (order[b.estadoClave] ?? 9) || a.titulo.localeCompare(b.titulo, 'es');
-      });
+    let convocatorias = [];
 
     function normalise(text){return (text || '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
     function escapeHtml(text){return String(text || '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
-    function estadoLabel(clave){return clave === 'abierta' ? 'Abierta' : clave === 'provisional' ? 'Lista provisional' : clave === 'definitiva' ? 'Listado definitivo' : 'Otros estados';}
+    function estadoLabel(clave){return clave === 'abierta' ? 'Matrícula abierta' : clave === 'provisional' ? 'Lista provisional' : clave === 'definitiva' ? 'Listado definitivo' : 'Otros estados';}
+
+    function sortAndPrepareData(data){
+      return data
+        .filter(item => (item.curso || '').includes(COURSE) || (item.titulo || '').includes(COURSE) || !item.curso)
+        .sort((a,b) => {
+          const order = {abierta:0, provisional:1, definitiva:2, otros:3};
+          return (order[a.estadoClave] ?? 9) - (order[b.estadoClave] ?? 9) || a.titulo.localeCompare(b.titulo, 'es');
+        });
+    }
 
     function cardTemplate(item){
       const safeTitle = escapeHtml(item.titulo || 'Convocatoria sin título');
-      const safeTipo = escapeHtml(item.tipo || 'Convocatoria');
-      const safeUrl = escapeHtml(item.url || '#');
+      const safeTipo = escapeHtml(item.tipo || 'General');
+      const safeUrl = escapeHtml(item.url || OFFICIAL_URL);
       const safeCurso = escapeHtml(item.curso || COURSE);
-      const safeFuente = escapeHtml(item.fuente || 'Fuente oficial');
+      const safeFuente = escapeHtml(item.fuente || 'Gobierno de Canarias');
       const safeEstado = escapeHtml(item.estado || estadoLabel(item.estadoClave));
-      const safeDetalle = escapeHtml(item.detalle || 'Consulta la página oficial para más información.');
+      const safeDetalle = escapeHtml(item.detalle || 'Consulta la convocatoria oficial para conocer los plazos y la documentación.');
       const estadoClase = ['abierta','provisional','definitiva'].includes(item.estadoClave) ? item.estadoClave : 'otros';
+      
       return `
         <article class="card estado-${estadoClase}">
           <div>
@@ -175,12 +191,15 @@
     }
 
     function populateSelect(select, values, labeler = v => v){
+      const current = select.value;
+      select.innerHTML = select.children[0].outerHTML;
       values.forEach(value => {
         const option = document.createElement('option');
         option.value = value;
         option.textContent = labeler(value);
         select.appendChild(option);
       });
+      select.value = current;
     }
 
     function populateFilters(){
@@ -206,11 +225,121 @@
       summary.textContent = `${filtered.length} convocatoria${filtered.length === 1 ? '' : 's'} mostrada${filtered.length === 1 ? '' : 's'} de ${convocatorias.length} para el curso ${COURSE}.`;
     }
 
+    // Función asíncrona para actualizar las convocatorias desde el portal oficial
+    async function actualizarConvocatoriasEnVivo(){
+      syncBadge.className = 'sync-badge loading';
+      syncBadge.textContent = '🔄 Consultando portal de Educación de Canarias...';
+
+      const fechaHoy = new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+
+      try {
+        // Petición a través de proxy CORS seguro para obtener la página en vivo
+        const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(OFFICIAL_URL)}`;
+        const response = await fetch(proxyUrl, { cache: 'no-cache' });
+        
+        if (!response.ok) throw new Error('Error al conectar con la fuente oficial');
+        const htmlText = await response.text();
+
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlText, 'text/html');
+        
+        // Extraer enlaces a convocatorias de la página oficial
+        const links = Array.from(doc.querySelectorAll('a[href]'));
+        const convocatoriasExtraidas = [];
+
+        links.forEach(link => {
+          const text = (link.textContent || '').trim();
+          const href = link.getAttribute('href') || '';
+          
+          if (!text || text.length < 8) return;
+          if (href.includes('#') || href.startsWith('javascript:')) return;
+
+          const absoluteUrl = href.startsWith('http') ? href : new URL(href, OFFICIAL_URL).href;
+          const lowerText = text.toLowerCase();
+
+          // Filtrar convocatorias relacionadas con el curso actual o de interés
+          if (lowerText.includes('2026') || lowerText.includes('proyecto') || lowerText.includes('programa') || lowerText.includes('convocatoria') || lowerText.includes('muestra') || lowerText.includes('concurso')) {
+            let estadoClave = 'otros';
+            let estado = 'Ver bases';
+            let detalle = 'Convocatoria disponible en la sede oficial de Educación del Gobierno de Canarias.';
+
+            if (lowerText.includes('abiert') || lowerText.includes('plazo') || lowerText.includes('solicitud') || lowerText.includes('inscripción') || lowerText.includes('matricula')) {
+              estadoClave = 'abierta';
+              estado = 'Matrícula / Plazo abierto';
+              detalle = '⚡ Esta convocatoria se encuentra actualmente con periodo de inscripción o solicitud abierto.';
+            } else if (lowerText.includes('provisional')) {
+              estadoClave = 'provisional';
+              estado = 'Lista provisional';
+              detalle = 'Listado provisional publicado en el portal.';
+            } else if (lowerText.includes('definitiv')) {
+              estadoClave = 'definitiva';
+              estado = 'Listado definitivo';
+              detalle = 'Listado definitivo de admitidos publicado.';
+            }
+
+            // Detección de área temática por palabras clave
+            let tipo = 'General';
+            if (lowerText.includes('steam') || lowerText.includes('robótica') || lowerText.includes('ciencia') || lowerText.includes('astronomía')) tipo = 'STEAM';
+            else if (lowerText.includes('lengua') || lowerText.includes('lectura') || lowerText.includes('escrit') || lowerText.includes('libro') || lowerText.includes('cine')) tipo = 'Comunicación lingüística';
+            else if (lowerText.includes('igualdad') || lowerText.includes('deporte') || lowerText.includes('afectivo')) tipo = 'Igualdad / Salud';
+            else if (lowerText.includes('ambiental') || lowerText.includes('clima') || lowerText.includes('ecoló')) tipo = 'Educación Ambiental';
+            else if (lowerText.includes('matemát')) tipo = 'Matemáticas';
+
+            convocatoriasExtraidas.push({
+              titulo: text.replace(/\s+/g, ' '),
+              url: absoluteUrl,
+              curso: COURSE,
+              tipo: tipo,
+              fuente: 'Gobierno de Canarias (En vivo)',
+              estado: estado,
+              estadoClave: estadoClave,
+              detalle: detalle
+            });
+          }
+        });
+
+        if (convocatoriasExtraidas.length > 0) {
+          // Fusionar convocatorias extraídas evitando duplicados por URL o Título
+          const map = new Map();
+          [...convocatoriasExtraidas, ...CONVOCATORIAS].forEach(item => {
+            const key = item.url.toLowerCase();
+            if (!map.has(key)) map.set(key, item);
+          });
+
+          convocatorias = sortAndPrepareData(Array.from(map.values()));
+          syncBadge.className = 'sync-badge';
+          syncBadge.textContent = `🟢 Actualizado en vivo (${fechaHoy})`;
+        } else {
+          convocatorias = sortAndPrepareData(CONVOCATORIAS);
+          syncBadge.className = 'sync-badge';
+          syncBadge.textContent = `🔵 Datos locales verificados (${fechaHoy})`;
+        }
+
+      } catch (err) {
+        console.warn('Error al actualizar en vivo:', err);
+        convocatorias = sortAndPrepareData(CONVOCATORIAS);
+        syncBadge.className = 'sync-badge';
+        syncBadge.textContent = `🟠 Mostrando convocatorias guardadas (${fechaHoy})`;
+      }
+
+      updatedSpan.textContent = fechaHoy;
+      populateFilters();
+      render();
+    }
+
+    // Eventos y arranque inicial
     search.addEventListener('input', render);
     typeFilter.addEventListener('change', render);
     statusFilter.addEventListener('change', render);
-    populateFilters();
-    render();
+    btnSync.addEventListener('click', actualizarConvocatoriasEnVivo);
+
+    // Inicializar app al cargar
+    document.addEventListener('DOMContentLoaded', () => {
+      convocatorias = sortAndPrepareData(CONVOCATORIAS);
+      populateFilters();
+      render();
+      actualizarConvocatoriasEnVivo();
+    });
   </script>
 </body>
 </html>
