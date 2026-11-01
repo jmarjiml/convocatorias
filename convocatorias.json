@@ -1,5 +1,5 @@
 {
-  "updated": "31/10/2026",
+  "updated": "01/11/2026",
   "data": [
     {
       "orden": 1,
@@ -413,11 +413,11 @@
       "titulo": "Proyecto La lucha del garrote adaptada: camino de vida, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-lucha-garrote-adaptada/",
       "curso": "2026-2027",
-      "tipo": "Igualdad / Salud",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Plazo cerrado",
-      "estadoClave": "otros",
-      "detalle": "Plazo finalizado el 23/10/2026 (en baremación)."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 39,
@@ -435,33 +435,33 @@
       "titulo": "Proyecto Tenencia responsable de mascotas, curso 2025-2026",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-tenencia-responsable-mascotas/",
       "curso": "2026-2027",
-      "tipo": "STEAM",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Plazo cerrado",
-      "estadoClave": "otros",
-      "detalle": "Plazo finalizado el 16/10/2026 (en baremación)."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 41,
       "titulo": "Proyecto experimental «SUMA», curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-suma/",
       "curso": "2026-2027",
-      "tipo": "Igualdad / Salud",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 42,
       "titulo": "Proyecto experimental Dentro de Juego II: Más Deporte, Más Igualdad, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/dentro-de-juego-ii/",
       "curso": "2026-2027",
-      "tipo": "STEAM",
+      "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 43,
@@ -470,31 +470,31 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 44,
       "titulo": "Proyecto: Libres: Claves para una Educación Afectivo-Sexual Integral,curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/libres/",
       "curso": "2026-2027",
-      "tipo": "STEAM",
+      "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 45,
       "titulo": "Proyecto experimental «Aprendiendo sobre ti: intervencion eseducativas asistidas con caballos», curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-aprendiendo-sobre-ti/",
       "curso": "2026-2027",
-      "tipo": "Igualdad / Salud",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 46,
@@ -1029,11 +1029,11 @@
       "titulo": "Proyecto:  Silbo Gomero, curso 2025-2026",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_silbo_gomero/",
       "curso": "2026-2027",
-      "tipo": "STEAM",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 95,
@@ -1051,22 +1051,22 @@
       "titulo": "Proyecto de actividad complementaria y extraescolar \"¡A Escena!\", curso 2025-2026",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-complementario-a-escena/",
       "curso": "2026-2027",
-      "tipo": "Igualdad / Salud",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 97,
       "titulo": "Proyecto de actividad complementaria y extraescolar Canarias a \"Pie de Foto\", curso 2025-2026",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-complementario-a-pie-de-foto/",
       "curso": "2026-2027",
-      "tipo": "Igualdad / Salud",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 98,
@@ -1095,11 +1095,11 @@
       "titulo": "Proyecto El lino de los sueños: centenario de Alonso Quesada, curso 2024-2025.",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/lino-de-los-suenos/",
       "curso": "2026-2027",
-      "tipo": "STEAM",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Listado definitivo",
-      "estadoClave": "definitiva",
-      "detalle": "Listado definitivo publicado mediante resolución oficial."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 101,
@@ -1117,11 +1117,11 @@
       "titulo": "Programas Europeos de Educación",
       "url": "https://www.gobiernodecanarias.org/educacion/web/opeec/index.html",
       "curso": "2026-2027",
-      "tipo": "Comunicación lingüística",
+      "tipo": "General",
       "fuente": "Gobierno de Canarias",
-      "estado": "Instrucciones / Consulta",
-      "estadoClave": "otros",
-      "detalle": "Consulta las bases e instrucciones oficiales."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Convocatoria publicada."
     },
     {
       "orden": 103,
