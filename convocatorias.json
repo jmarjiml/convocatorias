@@ -1,12 +1,12 @@
 {
-  "updated": "03/11/2026",
+  "updated": "04/11/2026",
   "data": [
     {
       "orden": 1,
       "titulo": "Programas, proyectos, redes y áreas",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/",
       "curso": "2026-2027",
-      "tipo": "Igualdad / Salud",
+      "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
       "estado": "Instrucciones / Consulta",
       "estadoClave": "otros",
@@ -25,6 +25,39 @@
     },
     {
       "orden": 3,
+      "titulo": "Revista Hipótesis, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-revista-hipotesis/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
+    },
+    {
+      "orden": 4,
+      "titulo": "Proyecto CanSat Canarias, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/competicion-reginional-cansat-canarias/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
+    },
+    {
+      "orden": 5,
+      "titulo": "Proyecto Canarias al natural, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/canarias-natural/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 18/11/2026."
+    },
+    {
+      "orden": 6,
       "titulo": "Proyecto Piloto Murgavalores: la diversidad nos hace únicos, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/murgavalores/",
       "curso": "2026-2027",
@@ -35,7 +68,7 @@
       "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
     },
     {
-      "orden": 4,
+      "orden": 7,
       "titulo": "Proyecto Tenencia responsable de mascotas, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-tenencia-responsable-mascotas/",
       "curso": "2026-2027",
@@ -46,7 +79,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
     },
     {
-      "orden": 5,
+      "orden": 8,
       "titulo": "Proyecto Cultivating Futures: pedagogical gardens for language learning, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-cultivating-futures/",
       "curso": "2026-2027",
@@ -57,7 +90,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 13/11/2026."
     },
     {
-      "orden": 6,
+      "orden": 9,
       "titulo": "Proyecto Ecobosques educativos para la conservación de la naturaleza, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-ecobosques/",
       "curso": "2026-2027",
@@ -68,7 +101,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 13/11/2026."
     },
     {
-      "orden": 7,
+      "orden": 10,
       "titulo": "Proyecto: Aulas innovadoras de Educación Patrimonial, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-aulas-innovadoras/",
       "curso": "2026-2027",
@@ -79,7 +112,7 @@
       "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
-      "orden": 8,
+      "orden": 11,
       "titulo": "Charlas sobre el español de Canarias y su literatura, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/charlas_espanol_literatura_canarias/",
       "curso": "2026-2027",
@@ -90,7 +123,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 09/11/2026."
     },
     {
-      "orden": 9,
+      "orden": 12,
       "titulo": "Proyecto de innovación Educarnaval, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/actividad-educativa-educarnaval/",
       "curso": "2026-2027",
@@ -101,7 +134,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 09/11/2026."
     },
     {
-      "orden": 10,
+      "orden": 13,
       "titulo": "Proyecto de innovación Detectives Climáticos, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-detective-climatico/",
       "curso": "2026-2027",
@@ -112,7 +145,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 09/11/2026."
     },
     {
-      "orden": 11,
+      "orden": 14,
       "titulo": "Proyecto: STEAM Future, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/steam_future/",
       "curso": "2026-2027",
@@ -123,7 +156,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 12,
+      "orden": 15,
       "titulo": "Proyecto Huertos Escolares Ecológicos, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/convocatoria-huertos_escolares_ecologicos/",
       "curso": "2026-2027",
@@ -134,7 +167,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 13,
+      "orden": 16,
       "titulo": "Concurso buenas prácticas Edu-REF, curso 2025-2026",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/concurso_buenas_practicas_edu_ref/",
       "curso": "2026-2027",
@@ -145,7 +178,7 @@
       "detalle": "Plazo finalizado el 11/05/2026 (en baremación)."
     },
     {
-      "orden": 14,
+      "orden": 17,
       "titulo": "Programa Cepillín, Cepillán, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa_cepillin_cepillan/",
       "curso": "2026-2027",
@@ -156,7 +189,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 15,
+      "orden": 18,
       "titulo": "Proyecto STEAM: Georrutas, usando el entorno como recurso educativo, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-steam_georrutas/",
       "curso": "2026-2027",
@@ -167,18 +200,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 16,
-      "titulo": "Proyecto CanSat Canarias, curso 2026-2027",
-      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/competicion-reginional-cansat-canarias/",
-      "curso": "2026-2027",
-      "tipo": "STEAM",
-      "fuente": "Gobierno de Canarias",
-      "estado": "Lista provisional",
-      "estadoClave": "provisional",
-      "detalle": "Listado provisional publicado (periodo de reclamaciones/alegaciones)."
-    },
-    {
-      "orden": 17,
+      "orden": 19,
       "titulo": "Proyecto Edubótica Marina: mar, ciencia y robótica, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-edurov/",
       "curso": "2026-2027",
@@ -189,7 +211,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 18,
+      "orden": 20,
       "titulo": "Plan de Frutas y Hortalizas, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/plan-frutas-y-verduras/",
       "curso": "2026-2027",
@@ -200,7 +222,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 19,
+      "orden": 21,
       "titulo": "Proyecto de innovación: Ayudantes TIC, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/ayudantes-tic/",
       "curso": "2026-2027",
@@ -211,7 +233,7 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
     },
     {
-      "orden": 20,
+      "orden": 22,
       "titulo": "Proyecto Puentes de experiencia, caminos de aprendizaje, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-puentes-de-aprendizaje/",
       "curso": "2026-2027",
@@ -222,7 +244,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 21,
+      "orden": 23,
       "titulo": "Proyecto: Premio Cosmos, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_premio_cosmo/",
       "curso": "2026-2027",
@@ -233,18 +255,18 @@
       "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
     },
     {
-      "orden": 22,
+      "orden": 24,
       "titulo": "Proyecto Doble Hélice 3.0 Podcaster, curso escolar 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_doble_helice/",
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción abierto hasta el 03/11/2026."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 03/11/2026 (en baremación)."
     },
     {
-      "orden": 23,
+      "orden": 25,
       "titulo": "Proyecto Ciencia con PETeR: investigando el Sistema Solar y los exoplanetas con telescopios robóticos, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/ciencia_peter/",
       "curso": "2026-2027",
@@ -255,7 +277,7 @@
       "detalle": "Listado definitivo publicado mediante resolución oficial."
     },
     {
-      "orden": 24,
+      "orden": 26,
       "titulo": "Proyecto iDESCUBRE: el camino de la Investigación a la Innovación, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto_idescubre/",
       "curso": "2026-2027",
@@ -266,7 +288,7 @@
       "detalle": "Plazo finalizado el 02/11/2026 (en baremación)."
     },
     {
-      "orden": 25,
+      "orden": 27,
       "titulo": "Programa Descubre la salud en tu plato, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-descubre-la-salud-en-tu-plato/",
       "curso": "2026-2027",
@@ -277,7 +299,7 @@
       "detalle": "Plazo finalizado el 02/11/2026 (en baremación)."
     },
     {
-      "orden": 26,
+      "orden": 28,
       "titulo": "Proyecto Espacios Solidarios, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-espacios-solidarios/",
       "curso": "2026-2027",
@@ -288,31 +310,9 @@
       "detalle": "Plazo finalizado el 30/10/2026 (en baremación)."
     },
     {
-      "orden": 27,
-      "titulo": "Proyecto Canarias al natural, curso 2026-2027",
-      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/canarias-natural/",
-      "curso": "2026-2027",
-      "tipo": "STEAM",
-      "fuente": "Gobierno de Canarias",
-      "estado": "Plazo cerrado",
-      "estadoClave": "otros",
-      "detalle": "Plazo finalizado el 30/10/2026 (en baremación)."
-    },
-    {
-      "orden": 28,
+      "orden": 29,
       "titulo": "XV Muestra-certamen de Cine Educativo Sin Re-cortes en Corto, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/sin-re-cortes-en-corto/",
-      "curso": "2026-2027",
-      "tipo": "STEAM",
-      "fuente": "Gobierno de Canarias",
-      "estado": "Plazo cerrado",
-      "estadoClave": "otros",
-      "detalle": "Plazo finalizado el 30/10/2026 (en baremación)."
-    },
-    {
-      "orden": 29,
-      "titulo": "Proyecto educativo: Un patrimonio de emociones, curso 2026-2027",
-      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/patrimonio_emociones/",
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
@@ -333,14 +333,14 @@
     },
     {
       "orden": 31,
-      "titulo": "Proyecto de Educación Ambiental Brotes, curso 2026-2027",
-      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-de-educacion-ambiental-brotes/",
+      "titulo": "Proyecto educativo: Un patrimonio de emociones, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/patrimonio_emociones/",
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Listado definitivo",
-      "estadoClave": "definitiva",
-      "detalle": "Listado definitivo publicado mediante resolución oficial."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 30/10/2026 (en baremación)."
     },
     {
       "orden": 32,
@@ -366,8 +366,8 @@
     },
     {
       "orden": 34,
-      "titulo": "Programa de intervención sobre tabaquismo en Enseñanza Secundaria (ITESplus), curso 2026-2027",
-      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa-itesplus/",
+      "titulo": "Proyecto de Educación Ambiental Brotes, curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-de-educacion-ambiental-brotes/",
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
@@ -388,6 +388,17 @@
     },
     {
       "orden": 36,
+      "titulo": "Programa de intervención sobre tabaquismo en Enseñanza Secundaria (ITESplus), curso 2026-2027",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/programa-itesplus/",
+      "curso": "2026-2027",
+      "tipo": "STEAM",
+      "fuente": "Gobierno de Canarias",
+      "estado": "Listado definitivo",
+      "estadoClave": "definitiva",
+      "detalle": "Listado definitivo publicado mediante resolución oficial."
+    },
+    {
+      "orden": 37,
       "titulo": "Proyecto: Bibliotecas escolares del siglo XXI: los medios de comunicación en el espacio de la biblioteca escolar, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/bibliotecas-escolares-siglo-xxi/",
       "curso": "2026-2027",
@@ -398,7 +409,7 @@
       "detalle": "Plazo finalizado el 20/10/2026 (en baremación)."
     },
     {
-      "orden": 37,
+      "orden": 38,
       "titulo": "Proyecto Cultura Oceánica a través de la RedPROMAR, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-cultura_oceanica_redpromar/",
       "curso": "2026-2027",
@@ -409,7 +420,7 @@
       "detalle": "Plazo finalizado el 30/10/2026 (en baremación)."
     },
     {
-      "orden": 38,
+      "orden": 39,
       "titulo": "Proyecto piloto: Un Timple en mi Cole, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-timple-en-mi-cole/",
       "curso": "2026-2027",
@@ -420,7 +431,7 @@
       "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
-      "orden": 39,
+      "orden": 40,
       "titulo": "Proyecto La lucha del garrote adaptada: camino de vida, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-lucha-garrote-adaptada/",
       "curso": "2026-2027",
@@ -429,17 +440,6 @@
       "estado": "Plazo cerrado",
       "estadoClave": "otros",
       "detalle": "Plazo finalizado el 23/10/2026 (en baremación)."
-    },
-    {
-      "orden": 40,
-      "titulo": "Revista Hipótesis, curso 2026-2027",
-      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-revista-hipotesis/",
-      "curso": "2026-2027",
-      "tipo": "STEAM",
-      "fuente": "Gobierno de Canarias",
-      "estado": "Plazo cerrado",
-      "estadoClave": "otros",
-      "detalle": "Plazo finalizado el 09/10/2026 (en baremación)."
     },
     {
       "orden": 41,
@@ -1117,7 +1117,7 @@
       "titulo": "Programas Europeos de Educación",
       "url": "https://www.gobiernodecanarias.org/educacion/web/opeec/index.html",
       "curso": "2026-2027",
-      "tipo": "Comunicación lingüística",
+      "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
       "estado": "Instrucciones / Consulta",
       "estadoClave": "otros",
