@@ -1,5 +1,5 @@
 {
-  "updated": "06/11/2026",
+  "updated": "07/11/2026",
   "data": [
     {
       "orden": 1,
@@ -129,9 +129,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 06/11/2026 (en baremación)."
     },
     {
       "orden": 13,
@@ -173,9 +173,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 06/11/2026 (en baremación)."
     },
     {
       "orden": 17,
@@ -316,9 +316,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 06/11/2026 (en baremación)."
     },
     {
       "orden": 30,
@@ -613,9 +613,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción abierto hasta el 06/11/2026."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 06/11/2026 (en baremación)."
     },
     {
       "orden": 57,
