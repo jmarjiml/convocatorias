@@ -1,5 +1,5 @@
 {
-  "updated": "17/11/2026",
+  "updated": "18/11/2026",
   "data": [
     {
       "orden": 1,
@@ -8,9 +8,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción y entrega de solicitudes abierto."
+      "estado": "Instrucciones / Consulta",
+      "estadoClave": "otros",
+      "detalle": "Consulta las bases e instrucciones oficiales."
     },
     {
       "orden": 2,
@@ -47,7 +47,7 @@
     },
     {
       "orden": 5,
-      "titulo": "Proyecto de innovación: Enseñar Africa. Una mirada en positivo, curso 2025-2026",
+      "titulo": "Proyecto de innovación: Enseñar Africa. Una mirada en positivo, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-de-innovacion-ensenar-africa/",
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
@@ -1150,7 +1150,7 @@
       "titulo": "Programas Europeos de Educación",
       "url": "https://www.gobiernodecanarias.org/educacion/web/opeec/index.html",
       "curso": "2026-2027",
-      "tipo": "STEAM",
+      "tipo": "Comunicación lingüística",
       "fuente": "Gobierno de Canarias",
       "estado": "Instrucciones / Consulta",
       "estadoClave": "otros",
