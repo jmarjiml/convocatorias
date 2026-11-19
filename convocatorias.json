@@ -1,5 +1,5 @@
 {
-  "updated": "18/11/2026",
+  "updated": "19/11/2026",
   "data": [
     {
       "orden": 1,
@@ -283,9 +283,9 @@
       "curso": "2026-2027",
       "tipo": "STEAM",
       "fuente": "Gobierno de Canarias",
-      "estado": "Plazo cerrado",
-      "estadoClave": "otros",
-      "detalle": "Plazo finalizado el 13/11/2026 (en baremación)."
+      "estado": "Matrícula abierta",
+      "estadoClave": "abierta",
+      "detalle": "⚡ Plazo de inscripción abierto hasta el 03/12/2026."
     },
     {
       "orden": 27,
