@@ -1,5 +1,5 @@
 {
-  "updated": "26/11/2026",
+  "updated": "27/11/2026",
   "data": [
     {
       "orden": 1,
@@ -25,7 +25,7 @@
     },
     {
       "orden": 3,
-      "titulo": "Proyecto Job Shadow AICLE y Bachibac, curso 2026-2027",
+      "titulo": "Proyecto Job Shadow:aprendizaje entre iguales, curso 2026-2027",
       "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/convocatorias/proyecto-jobshadow-aicle/",
       "curso": "2026-2027",
       "tipo": "Comunicación lingüística",
@@ -206,9 +206,9 @@
       "curso": "2026-2027",
       "tipo": "Igualdad / Salud",
       "fuente": "Gobierno de Canarias",
-      "estado": "Matrícula abierta",
-      "estadoClave": "abierta",
-      "detalle": "⚡ Plazo de inscripción abierto hasta el 26/11/2026."
+      "estado": "Plazo cerrado",
+      "estadoClave": "otros",
+      "detalle": "Plazo finalizado el 26/11/2026 (en baremación)."
     },
     {
       "orden": 20,
